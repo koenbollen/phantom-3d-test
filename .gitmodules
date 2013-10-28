@@ -1,0 +1,4 @@
+[submodule "phantom"]
+	path = phantom
+	url = git@github.com:ludomotion/phantom.git
+	branch = master

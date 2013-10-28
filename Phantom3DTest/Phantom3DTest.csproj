@@ -87,6 +87,10 @@
       <Name>Phantom3DTestContent</Name>
       <XnaReferenceType>Content</XnaReferenceType>
     </ProjectReference>
+    <ProjectReference Include="..\phantom\Phantom.csproj">
+      <Project>{3B666D28-C9F8-42CB-804E-8E7C6127132E}</Project>
+      <Name>Phantom</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

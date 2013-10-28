@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C# Express 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantom3DTest", "Phantom3DTest\Phantom3DTest.csproj", "{F613ACBF-BACA-47C2-B71F-67A9CA141FF4}"
 EndProject
-Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "Phantom3DTestContent", "Phantom3DTestContent\Phantom3DTestContent.contentproj", "{B0B5CC2E-5978-419D-B9D0-B631B2E1F6DF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantom3DTestContent", "Phantom3DTestContent\Phantom3DTestContent.contentproj", "{B0B5CC2E-5978-419D-B9D0-B631B2E1F6DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Phantom", "phantom\Phantom.csproj", "{3B666D28-C9F8-42CB-804E-8E7C6127132E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{F613ACBF-BACA-47C2-B71F-67A9CA141FF4}.Release|x86.Build.0 = Release|x86
 		{B0B5CC2E-5978-419D-B9D0-B631B2E1F6DF}.Debug|x86.ActiveCfg = Debug|x86
 		{B0B5CC2E-5978-419D-B9D0-B631B2E1F6DF}.Release|x86.ActiveCfg = Release|x86
+		{3B666D28-C9F8-42CB-804E-8E7C6127132E}.Debug|x86.ActiveCfg = Debug|x86
+		{3B666D28-C9F8-42CB-804E-8E7C6127132E}.Debug|x86.Build.0 = Debug|x86
+		{3B666D28-C9F8-42CB-804E-8E7C6127132E}.Release|x86.ActiveCfg = Release|x86
+		{3B666D28-C9F8-42CB-804E-8E7C6127132E}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
