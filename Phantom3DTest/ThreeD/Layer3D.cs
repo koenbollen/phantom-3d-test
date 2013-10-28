@@ -21,7 +21,7 @@ namespace Phantom3DTest.ThreeD
         {
             this.AddComponent(new Camera3D());
 #if DEBUG
-            this.AddComponent(new Origin(5));
+            this.AddComponent(new Origin(1));
 #endif
         }
 

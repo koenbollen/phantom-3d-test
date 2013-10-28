@@ -26,7 +26,11 @@ namespace Phantom3DTest
         public override void SetupGraphics()
         {
             base.SetupGraphics();
+
+            this.graphics.PreferredBackBufferWidth = (int)this.Width;
+            this.graphics.PreferredBackBufferHeight = (int)this.Height;
             this.graphics.IsFullScreen = false;
+
             XnaGame.IsMouseVisible = true;
         }
 
@@ -34,6 +38,9 @@ namespace Phantom3DTest
         {
             GameState gs = new GameState();
             Layer3D l = new Layer3D();
+#if !DEBUG
+            l.AddComponent(new Origin(5));
+#endif
             l.AddComponent(this.mr = new ModelRenderer("suzanne", Vector3.Zero, Vector3.Zero, 2));
             gs.AddComponent(l);
             PushState(gs);
